@@ -1,0 +1,33 @@
+POST http://localhost:7071/api/items
+Content-Type: application/json
+
+{
+    "text": "hello world",
+    "completed": false
+}
+
+###
+
+GET http://localhost:7071/api/items/271686fb-9489-4064-99a8-70105737ceca
+
+
+###
+
+PUT http://localhost:7071/api/items/271686fb-9489-4064-99a8-70105737ceca
+Content-Type: application/json
+
+{
+  "text": "hello there",
+  "completed": false,
+  "id": "271686fb-9489-4064-99a8-70105737ceca"
+}
+
+
+###
+
+DELETE http://localhost:7071/api/items/6f667e37-6e09-44ae-a1f7-b218e71c8826
+
+
+###
+
+GET http://localhost:7071/api/items
