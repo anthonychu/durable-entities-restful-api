@@ -10,10 +10,10 @@
 
 ## Versions
 
-# Eventually consistent (v1)
+### Eventually consistent (v1)
 
 Create/update/delete signals the entity asynchronously and returns before the item is updated.
 
-# Synchronous (v2)
+### Synchronous (v2)
 
 Create/update/delete waits for entity to be saved before they return a result.
