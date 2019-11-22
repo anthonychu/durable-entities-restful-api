@@ -1,5 +1,4 @@
 const df = require('durable-functions');
-const uuid = require('uuid/v4');
 
 module.exports = async function (context, req) {
     const client = df.getClient(context);
