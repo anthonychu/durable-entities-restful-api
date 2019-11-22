@@ -6,9 +6,9 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
+        "post"
       ],
-      "route": "{version}/items/{id}"
+      "route": "v1/items"
     },
     {
       "type": "http",

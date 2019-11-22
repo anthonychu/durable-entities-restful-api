@@ -8,7 +8,7 @@
       "methods": [
         "put"
       ],
-      "route": "items/{id}"
+      "route": "v1/items/{id}"
     },
     {
       "type": "http",

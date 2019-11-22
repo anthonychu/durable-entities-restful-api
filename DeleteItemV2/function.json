@@ -6,9 +6,9 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "post"
+        "delete"
       ],
-      "route": "items"
+      "route": "v2/items/{id}"
     },
     {
       "type": "http",

@@ -1,4 +1,4 @@
-POST http://localhost:7071/api/items
+POST http://localhost:7071/api/v2/items
 Content-Type: application/json
 
 {
@@ -8,26 +8,26 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:7071/api/items/271686fb-9489-4064-99a8-70105737ceca
+GET http://localhost:7071/api/v2/items/271686fb-9489-4064-99a8-70105737ceca
 
 
 ###
 
-PUT http://localhost:7071/api/items/271686fb-9489-4064-99a8-70105737ceca
+PUT http://localhost:7071/api/v2/items/82f05484-0a4e-4fe8-b05b-1bda76865ca5
 Content-Type: application/json
 
 {
   "text": "hello there",
   "completed": false,
-  "id": "271686fb-9489-4064-99a8-70105737ceca"
+  "id": "82f05484-0a4e-4fe8-b05b-1bda76865ca5"
 }
 
 
 ###
 
-DELETE http://localhost:7071/api/items/6f667e37-6e09-44ae-a1f7-b218e71c8826
+DELETE http://localhost:7071/api/v2/items/1d2b51f2-62b1-40ae-8034-f703b74c8f36
 
 
 ###
 
-GET http://localhost:7071/api/items
+GET http://localhost:7071/api/v2/items

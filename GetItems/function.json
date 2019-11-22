@@ -8,7 +8,7 @@
       "methods": [
         "get"
       ],
-      "route": "items"
+      "route": "{version}/items"
     },
     {
       "type": "http",

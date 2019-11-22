@@ -10,5 +10,5 @@ module.exports = async function (context, req) {
     client.signalEntity(entityId, 'create', item);
 
     context.res.status = 202;
-    context.res.headers.location = `/api/items/${item.id}`;
+    context.res.headers.location = `/v1/api/items/${item.id}`;
 };
